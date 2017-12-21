@@ -19,5 +19,6 @@ array3 = np.arange(0,n,3)
 array5 = np.arange(0,n,5)
 # answer = np.sum(np.arange(0,n,3)) + np.sum(np.arange(0,n,5)) - np.sum(np.arange(0,n,15))
 answer = np.sum(np.unique(np.concatenate((array3,array5))))
-print('And the answer is %i' % answer)
+
+print('The sum of all the multiples of 3 and 5 below %i is %i' % (n,answer))
 
